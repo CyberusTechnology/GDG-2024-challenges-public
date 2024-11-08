@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cyberus' GDG 2024 Quizzes</title>
+</head>
+
+<body>
+    <h1 id="cyberus-gdg-2024-quizzes">Cyberus&#39; GDG 2024 Quizzes</h1>
+    <hr>
+    <p>Welcome Challengers, Are you ready to test your coding skills? You are required 
+    to solve at least one problem to claim the prize, which includes Cyberus&#39; stickers and T-Shirt.</p>
+    <h1 id="rules">Rules</h1>
+    <hr>
+    <ul>
+        <li>Challengers can use any programming language of choices.</li>
+        <li>For fairness, Challengers can not use any pre-built libraries or functions that performs complex operations such as sorting , searching, etc. If found using such libraries or functions, challenger will be disqualified.</li>
+        <li>Challengers are required to do a Write-up to claim the prize.</li>
+        <li>Challengers are prohibited to share solutions with other challengers.</li>
+    </ul>
+    <h1 id="how-to-earn-prizes">How to earn prizes</h1>
+    <hr>
+    <ul>
+        <li>Solve one easy problem -&gt; Stickers.</li>
+        <li>Solve two medium problems -&gt; Cyberus T-Shirt.</li>
+        <li>Solve one hard problem -&gt; Cyberus T-Shirt and Stickers.</li>
+        <li>Prizes DO NOT stack.</li>
+    </ul>
+    <h1 id="challenge-pool">Challenge pool</h1>
+    <hr>
+    <h2 id="easy">Easy</h2>
+    <hr>
+    <h2 id="-fibonacci-sequences-">&gt; Fibonacci Sequences</h2>
+    <hr>
+    <p>Hello Challenger, I really need you to create this thing called <code>Golden Ratio</code> 
+    for me, but doing it by hand is reaallly difficult. Could you please help me 
+    create this using your extraordinary skills and create a golden ratio of <code>39</code> 
+    iterations for me, you will be rewarded greatly!</p>
+    <h3 id="example">Example</h3>
+    <ul>
+        <li>f(0) -&gt; 0</li>
+        <li>f(3) -&gt; 2 : 1 1 2</li>
+        <li>f(5) -&gt; 5 : 1 1 2 3 5</li>
+    </ul>
+    <h3 id="answer">Answer</h3>
+    <p>The answer is the number of Fibonacci sequences of <code>39</code>.</p>
+    <hr>
+    <h2 id="medium">Medium</h2>
+    <hr>
+    <h2 id="-fibonacci-sequences-revenge-">&gt; Fibonacci Sequences - Revenge</h2>
+    <hr>
+    <p>Hello Challenger, The last Fibonacci Sequence you gave me wasn&#39;t quite enough, 
+    can you please create and even bigger Golden Ratio for me this time.</p>
+    <h3 id="answer">Answer</h3>
+    <p>The answer is the number of Fibonacci sequences of <code>1337</code></p>
+    <h2 id="-look-and-say">&gt; Look and Say</h2>
+    <hr>
+    <p>Hey Challenger, Let&#39;s play a game and see if you can read out what you see! </p>
+    <h3 id="example">Example</h3>
+    <p><code>5</code> rounds starting with <code>1</code>:</p>
+    <ul>
+        <li>1 -&gt; 11 (one 1)</li>
+        <li>11 -&gt; 21 (two 1)</li>
+        <li>21 -&gt; 1211 (one 2 one 1)</li>
+        <li>1211 -&gt; 111221 (one 1 one 2 two 1)</li>
+        <li>111221 -&gt; 312211 (three 1 two 2 one 1)</li>
+    </ul>
+    <h3 id="answer">Answer</h3>
+    <p>The answer is the <code>length</code> of the total number when starting with <code>1113322113</code> and 
+    continue the game for <code>39</code> rounds.</p>
+    <hr>
+    <h2 id="hard">Hard</h2>
+    <hr>
+    <h2 id="-weird-grimoire">&gt; Weird Grimoire</h2>
+    <hr>
+    <p>The great mage Frieren found a grimoire from her side quests, the grimoire contains 
+    weird symbols that she has never seen before. However, the book has a description 
+    that says:</p>
+    <blockquote>
+        <p>A MAGE THAT IS CAPABLE ENOUGH TO FIND WHAT REGISTER <code>a</code> HOLDS WILL UNLOCK A SECRET MAGIC BEHIND THIS GRIMOIRE.</p>
+    </blockquote>
+    <p>Challenger, now it&#39;s your job is to help Frieren find what is the value register <code>a</code> 
+    has to unlock the secret magic.</p>
+    <h3 id="notes">Notes</h3>
+    <ul>
+        <li>Every register is <code>16 bit</code>.</li>
+        <li>The input contain 5 instructions: <code>AND</code>, <code>OR</code>, <code>LSHIFT</code>, <code>RSHIFT</code> and <code>NOT</code>.</li>
+        <li>Use this <a href="https://pastebin.com/spq0phqA">input file</a> to find the answer.</li>
+    </ul>
+    <h3 id="example">Example</h3>
+    <ul>
+        <li>829 -&gt; x</li>
+        <li>921 -&gt; y</li>
+        <li>x AND y -&gt; a</li>
+        <li>a OR y -&gt; b</li>
+        <li>b LSHIFT 2 -&gt; c</li>
+        <li>c RSHIFT 2 -&gt; d</li>
+        <li>NOT x -&gt; e</li>
+    </ul>
+    <p>Final value:</p>
+    <ul>
+        <li>x = 829</li>
+        <li>y = 921</li>
+        <li>a = 793</li>
+        <li>b = 921</li>
+        <li>c = 3684</li>
+        <li>d = 921</li>
+        <li>e = 64706</li>
+    </ul>
+    <h3 id="answer">Answer</h3>
+    <p>The answer is the value of the register <code>a</code> from the input file provided.</p>
+</body>
+<style>
+    body {
+        padding: 4rem;
+        color: #232323;
+        font-size: 16px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #102c57
+    }
+    code {
+        color: #ffcd0c;
+        background-color: rgba(35, 35, 35, 0.9);
+        padding: 0px 2px;
+        border-radius: 4px;
+    }
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+    }
+    blockquote:before {
+        color: #ccc;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+    blockquote p {
+        display: inline;
+    }
+</style>
+
+</html>
